@@ -1,0 +1,186 @@
+
+.side-bar-right {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 415px;
+  flex: 1;
+  row-gap: 25px;
+}
+
+.side-bar-right-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  min-width: 350px;
+  margin-bottom: -15px;
+}
+
+.side-bar-right-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.side-bar-right-header-icons-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.right-header-icon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.side-bar-right-header-name-status {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  row-gap: 4px;
+}
+
+.creator-name-right-side {
+  font-weight: 700;
+}
+
+.creator-right-header {
+  display: flex;
+  justify-content: end;
+}
+
+.right-header-account-profile-picure {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+}
+
+.side-bar-right-balance {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.side-bar-right-balance-header-title {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.side-bar-right-balance-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-bar-right-balance-amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.side-bar-right-balance-ethereum {
+  height: 45px;
+}
+
+.balance-date {
+  margin-left: 18px;
+  color: gray;
+}
+
+.side-bar-right-balance-ethereum-amount {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.side-bar-right-balance-main-right {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(48, 102, 250);
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.side-bar-right-balance-main-right:hover {
+  opacity: 0.9;
+}
+
+.side-bar-right-balance-main-right:active {
+  opacity: 0.7;
+}
+
+.side-bar-right-history {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.side-bar-nft-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.side-bar-nft-picture {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.side-bar-nft-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.side-bar-nft-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.side-bar-nft-bought-for {
+  color: gray;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.side-bar-nft-price-baught {
+  color: rgb(61, 61, 255);
+  font-weight: 700;
+}
+
+.side-bar-nft {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+
+.side-bar-right-followers {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.total-new-lost-followers {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.followers-samp {
+  color: gray;
+}
